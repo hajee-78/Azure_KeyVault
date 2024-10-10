@@ -7,4 +7,5 @@ A virtual machine that is currently in use and is running many automation script
 To store the credentials in a safe location, we will need a few more resources. Therefore, we also provide a Key Vault for storing secrets and a user-assigned managed identity to authenticate to Key Vault.
 
 **High Level Architecture Diagram**
+
 ![VMKeyVaultSecrets](https://github.com/user-attachments/assets/aaf3485d-6dea-4f1a-8057-9715c0df52fa)
