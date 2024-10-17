@@ -84,7 +84,7 @@ resource "azurerm_windows_virtual_machine" "dev-vm" {
   location = var.location
   network_interface_ids = [azurerm_network_interface.dev-nic.id]
   admin_username = "azureadmin"
-  admin_password = "H@mdan123456"
+  admin_password = "**************"
   size = "Standard_F2"
   os_disk {
     caching              = "ReadWrite"
