@@ -15,7 +15,7 @@ To store the credentials in a safe location, we will need a few more resources. 
 
 The terraform code structure as follows
 
-|-- main.tf // Contains the resource blocks that define the resources to be created in the target cloud provider
+|-- main.tf // Contains the resource blocks that define the resources to be created in the target cloud provider.
 
 |-- vars.tf // Variables declaration used in the resource block.
 
